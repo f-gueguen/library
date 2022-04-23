@@ -9,7 +9,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/http-server@^0.12.1":
+"@types/http-server@0.12.1":
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/@types/http-server/-/http-server-0.12.1.tgz#025f916420673f5ebc5ea48987aeae27776f02ac"
   integrity sha512-OJ8zs0o8JuHo92KCCsLq4BqkHPi1+Aj2yoPQXJ18LPUxOA1lqKfgBLtHNAQTwwPzeBqyo+HDkWD91MkfOGvNJg==
@@ -42,7 +42,7 @@ basic-auth@^2.0.1:
   dependencies:
     safe-buffer "5.1.2"
 
-brotli-size@^4.0.0:
+brotli-size@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/brotli-size/-/brotli-size-4.0.0.tgz#a05ee3faad3c0e700a2f2da826ba6b4d76e69e5e"
   integrity sha512-uA9fOtlTRC0iqKfzff1W34DXUA3GyVqbUaeo3Rw3d4gd1eavKVCETXrn3NzO74W+UVkG3UHu8WxUi+XvKI/huA==
@@ -99,7 +99,7 @@ docopt@~0.6.2:
   resolved "https://registry.yarnpkg.com/docopt/-/docopt-0.6.2.tgz#b28e9e2220da5ec49f7ea5bb24a47787405eeb11"
   integrity sha1-so6eIiDaXsSffqW7JKR3h0Be6xE=
 
-dot-json@^1.2.2:
+dot-json@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/dot-json/-/dot-json-1.2.2.tgz#7d35abece4aa22aa75a761388953f98495401bcc"
   integrity sha512-AKL+GsO4wSEU4LU+fAk/PqN4nQ6PB1vT3HpMiZous9xCzK5S0kh4DzfUY0EfU67jsIXLlu0ty71659N9Nmg+Tw==
@@ -301,7 +301,7 @@ http-proxy@^1.18.1:
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
 
-http-server@^14.1.0:
+http-server@14.1.0:
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/http-server/-/http-server-14.1.0.tgz#51d43e03cdbb94f328b24821cad2cefc6c6a2eed"
   integrity sha512-5lYsIcZtf6pdR8tCtzAHTWrAveo4liUlJdWc7YafwK/maPgYHs+VNP6KpCClmUnSorJrARVMXqtT055zBv11Yg==
@@ -415,6 +415,11 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
+
+typescript@^4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
+  integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
 
 underscore-keypath@~0.0.22:
   version "0.0.22"
