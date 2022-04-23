@@ -1,0 +1,22 @@
+{
+    "name": "@mylib/core",
+    "version": "0.0.1",
+    "description": "A template library core",
+    "license": "MIT",
+    "main": "dist/module.cjs.js",
+    "module": "dist/module.esm.js",
+    "unpkg": "dist/cdn.min.js",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf ./build",
+        "start": "http-server",
+        "dev": "yarn clean ; yarn build ; yarn start"
+    },
+    "dependencies": {
+        "typescript": "^4.6.3"
+    },
+    "devDependencies": {
+        "@types/http-server": "^0.12.1",
+        "http-server": "^14.1.0"
+    }
+}
