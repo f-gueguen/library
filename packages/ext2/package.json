@@ -1,0 +1,15 @@
+{
+    "name": "@mylib/ext2",
+    "version": "0.0.1",
+    "description": "A template plugin",
+    "license": "MIT",
+    "main": "dist/module.cjs.js",
+    "module": "dist/module.esm.js",
+    "unpkg": "dist/cdn.min.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "typescript": "^4.6.3"
+    }
+}
