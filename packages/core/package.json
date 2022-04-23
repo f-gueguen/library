@@ -8,15 +8,9 @@
     "unpkg": "dist/cdn.min.js",
     "scripts": {
         "build": "tsc",
-        "clean": "rm -rf ./build",
-        "start": "http-server",
-        "dev": "yarn clean ; yarn build ; yarn start"
+        "clean": "rm -rf ./js ./dist"
     },
     "dependencies": {
         "typescript": "^4.6.3"
-    },
-    "devDependencies": {
-        "@types/http-server": "0.12.1",
-        "http-server": "14.1.0"
     }
 }
