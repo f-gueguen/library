@@ -11,6 +11,6 @@
         "clean": "rm -rf ./js ./dist"
     },
     "dependencies": {
-        "typescript": "^4.6.3"
+        "typescript": "^5.0.0"
     }
 }
