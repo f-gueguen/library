@@ -6,7 +6,7 @@
     "devDependencies": {
         "@types/http-server": "0.12.1",
         "brotli-size": "4.0.0",
-        "dot-json": "1.2.2",
+        "dot-json": "1.3.0",
         "esbuild": "0.15.11",
         "http-server": "14.1.1"
     },
