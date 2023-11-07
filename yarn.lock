@@ -19,10 +19,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/http-server@0.12.1":
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@types/http-server/-/http-server-0.12.1.tgz#025f916420673f5ebc5ea48987aeae27776f02ac"
-  integrity sha512-OJ8zs0o8JuHo92KCCsLq4BqkHPi1+Aj2yoPQXJ18LPUxOA1lqKfgBLtHNAQTwwPzeBqyo+HDkWD91MkfOGvNJg==
+"@types/http-server@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@types/http-server/-/http-server-0.12.4.tgz#32c32928feb5aba3e3afa3880cce79eed5704f88"
+  integrity sha512-vsn4pvP2oRFALLuM5Rca6qUmSPG7u0VNjOuqvL57l3bKldQRWdUZPeSiARhzagDxgfNCHn/o8WlWk4KinBauUg==
   dependencies:
     "@types/connect" "*"
 
